@@ -34,6 +34,10 @@ You shoul dalso include the aframe-aabb-collider-component[https://www.npmjs.com
 
 Attach the `wall-collide` component to any entity, and pass in the relevant parameters. 
 
+## Caveats
+
+This only really works if your walls are aligned exactly along the x and z axes. 
+
 ## Parameters
 
 | Parameter          | Default  | Description |
