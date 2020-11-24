@@ -12,7 +12,7 @@ Include the component file in the head of your HTML document:
 
 ## Dependencies
 
-You shoul dalso include the aframe-aabb-collider-component[https://www.npmjs.com/package/aframe-aabb-collider-component] in the head of your HTML:
+You should also include the [aframe-aabb-collider-component](https://www.npmjs.com/package/aframe-aabb-collider-component) in the head of your HTML:
 
 ```html
 <script src="https://unpkg.com/aframe-aabb-collider-component@3.1.0/dist/aframe-aabb-collider-component.min.js"></script>
@@ -32,7 +32,7 @@ You shoul dalso include the aframe-aabb-collider-component[https://www.npmjs.com
 </a-box>
 ```
 
-Attach the `wall-collide` component to any entity, and pass in the relevant parameters. 
+Attach the `wall-collide` component to any entity, and pass in the relevant parameters. The `aabb-collider` component must be attached to the entity as well, and the `pushTarget` option of `wall-collide` should be the same as the `objects` option of the `aabb-collider`.
 
 ## Caveats
 
